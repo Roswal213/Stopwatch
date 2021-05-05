@@ -1,0 +1,11 @@
+.header {
+    border-bottom: 6px orange solid;
+    background-color: blue;
+    color: white;
+    justify-items: center;
+    padding: 2%;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
