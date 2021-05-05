@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">STOPWATCH</div>
+    <div class="stopWatch">
+        <h1 id="time">00</h1>
+        <h2 id="mark">00</h2>
+    </div>
+    
+    <div class="buttons">
+    <button id="start" class = "btn">Start</button>
+    <button id="stop" class = "btn">Stop</button>
+    <br>
+    <button id="clear" class = "btn">Clear</button>
+    <button id="Mark" class = "btn">Mark</button>
+</div>  
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/work.js"></script>
+    <style>
+        .stopWatch{
+            max-width: 100px;
+            border:10px black solid; 
+            background-color:cadetblue;
+            border-radius: 50px 50px 0px 0px;
+        }
+        h1{
+            padding-left:36%;
+        }
+        h2{
+            padding-left:40%;
+        }
+        .btn{
+            padding:.5%;
+            width:75%;
+            margin:5%;
+            margin-left:13%;
+            color:darkorange;
+            background-color:black;
+        }
+        .buttons{
+            max-width: 100px;
+            border:10px black solid; 
+            background-color:cadetblue;
+            border-radius: 0px 0px 50px 50px;
+        }
+        #Mark{
+            margin-bottom:20%;
+        }
+    </style>
+</body>
+</html>
